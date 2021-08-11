@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../static/stylesheet.css">
+    <link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">
+  
+</head>
+<body>   
+    <header >
+        <img src="../static/img/mainland_football_logo.png" alt="logo">
+        <ul>
+            <li><a href="\home">Home</a></li> 
+            <li><a href="\players_coaches">players & coaches</a></li>   
+            <li><a href="\referee">referee</a></li>   
+            <li><a href="\about">About</a></li>
+        </ul>
+    </header>
+    <section class="competitions" >
+        <h1>COMPETITIONS.</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, asperiores placeat provident facilis assumenda quae reiciendis sit tempore maiores earum voluptate perspiciatis dolorum commodi blanditiis porro molestias repellendus aut laboriosam, nesciunt temporibus exercitationem? Harum ducimus libero iusto aliquam voluptas sint temporibus. Inventore distinctio harum assumenda? Voluptatibus laudantium fugit natus eligendi soluta ullam rerum delectus, dolorum temporibus explicabo dicta non quasi optio nesciunt debitis reprehenderit atque nisi? Dicta numquam id laudantium laboriosam, porro quibusdam earum nam voluptate sequi voluptatem, tempora pariatur officiis veniam dolore assumenda optio aspernatur nisi illo architecto vero fuga beatae? Blanditiis labore quis architecto alias deleniti assumenda quidem doloribus, maiores voluptatem reprehenderit quasi tempore quas officia! Vero, consequuntur porro! Asperiores, odit. Placeat distinctio harum aut vel amet libero eligendi. Necessitatibus amet sapiente qui corrupti quaerat repellendus aliquam delectus illo, aperiam at ipsa ex! Labore, sed et natus adipisci aspernatur dicta quidem nisi saepe nemo perferendis consectetur unde doloremque.</p>
+
+
+        <div class="competition_cards">
+            <div class="comp_card comp_card1">
+                <img class="card-img-top" src="../static/img/players.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h3 class="card-title">MENS PREMERSHIP</h5>
+                  <p class="card-text">We organise the mens premership, a competition that is for the best of the best.</p>
+                </div>
+            </div>
+
+            <div class="comp_card comp_card2">
+                <img class="card-img-top" src="../static/img/comp_img/woman_comp.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h3 class="card-title">WOMENS PREMERSHIP</h5>
+                  <p class="card-text">We organise the womans premership, a competition that is for the best of the best.</p>
+                </div>
+            </div>
+
+            <div class="comp_card comp_card3">
+                <img class="card-img-top" src="../static/img/comp_img/reserves_comp.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h3 class="card-title">MENS RESERVES</h5>
+                  <p class="card-text">We organise the mens reserves, a competition that is for the second best.</p>
+                </div>
+            </div>
+
+            <div class="comp_card comp_card4">
+                <img class="card-img-top" src="../static/img/comp_img/women_reserves.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h3 class="card-title">WOMEN RESERVES</h5>
+                  <p class="card-text">We organise the women reserves, a competition that is for the second best.</p>
+                </div>
+            </div>
+
+            <div class="comp_card comp_card5">
+                <img class="card-img-top" src="../static/img/comp_img/youth_football.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h3 class="card-title">MIXED YOUTH</h5>
+                  <p class="card-text">We organise the mixed youth comp, a competition that is for the up and coming.</p>
+                </div>
+            </div>
+            <div class="comp_card comp_card5">
+                <img class="card-img-top" src="../static/img/comp_img/first_kicks_comp.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h3 class="card-title">FIRST KICKS</h5>
+                  <p class="card-text">We organise the first kicks comp, a competition that is for the young kids.</p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section class="competition_news">
+        <h1>competition news.</h1>
+    
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias voluptatem repellendus molestiae eius, deserunt maiores eligendi? Reprehenderit iste nobis est facilis ab ullam dolore quia, blanditiis nesciunt atque, reiciendis dicta mollitia earum consequuntur repellat. Iusto nemo facilis officia quo voluptates dolores explicabo cumque, earum magnam, recusandae eos numquam assumenda atque at debitis. Velit consequuntur aliquid vitae commodi mollitia voluptatem impedit quod enim similique, unde sequi amet magni culpa nemo pariatur id ullam exercitationem voluptas animi ab odit! Eum explicabo suscipit natus eos. Minima nulla excepturi soluta dolore error natus sit!</p>
+        <div class="news_articles">
+
+            <div class="news_card">
+                <img class="card-img-top" id='news_artice1' src="../static/img/news_img/newsartcle_1.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h3 class="card-title">SOUTHERN LEAGUE FIXTURE CHANGES  </h5>
+                  <button id="open_popup_news_1">SEE MORE</button>
+                </div>
+     
+            </div>
+            <div class="news_card">
+                <img class="card-img-top" src="../static/img/news_img/newsartice_2.png" alt="Card image cap">
+                <div class="card-body">
+                  <h3 class="card-title">CHATHAM CUP SEMI-FINAL DRAW  </h5>
+                    <br>
+                  <button id="open_popup_news_2">SEE MORE</button>
+                </div>
+            </div>
+            <div class="news_card">
+                <img class="card-img-top" src="../static/img/news_img/newsarticle3.jpeg" alt="Card image cap">
+                <div class="card-body">
+                  <h3 class="card-title">CONTINENTAL FUTSAL CHAMPIONSHIPS  </h5>
+                  <button id="open_popup_news_3">SEE MORE</button>
+                </div>
+            </div>
+
+        </div>
+
+
+
+
+      <div class="news_popups">
+
+
+        <div id="news_Modal_1" class="news_modal">
+          <!-- Modal content -->
+          <div class="modal-content">
+            <span class="close">&times;</span>
+            <h1>SOUTHERN LEAGUE FIXTURE CHANGES</h1>
+            <div>
+              <img src="../static/img/news_img/newsartcle_1.jpg" alt="photo">
+              <p>Off the back of Cashmere Technical advancing to the semi-finals of the Chatham Cup, which is scheduled to be played over the weekend of 21-22nd August, there are a few changes to upcoming Southern League fixtures.
+                  <br><br>
+                - This weekend's match-ups of Selwyn United versus Cashmere Technical, and Otago University versus Green Island, have been postponed and will be played mid-week at a later date.
+                <br><br>
+                - The Cashmere Technical versus Otago University match, originally scheduled for 22nd August, will now be played this Sunday, August 8th at 1 pm on the Football Turf in Dunedin.
+              </p>
+            </div>
+          </div>
+        </div>
+             
+          
+        <div id="news_Modal_2" class="news_modal">
+          <!-- Modal content -->
+          <div class="modal-content">
+            <span class="close">&times;</span>
+            <h1>CHATHAM CUP SEMI-FINAL DRAW</h1>
+            <div>
+              <img src="../static/img/news_img/newsartice_2.png" alt="photo">
+              <p>The semi-final round of the Chatham Cup had drawn by New Zealand Football with Cashmere Technical advancing after defeating Hamilton Wanderers 4-nil on Saturday. The semi-finals will be played over the weekend of 21st/22nd August.
+                <br><br>
+                <strong>Cup Semi-Final Draw</strong> 
+                <br>
+                Cashmere Technical vs Western Suburbs
+                <br>
+                Miramar Rangers vs North Shore United
+                <br>
+                <br><br>
+                <strong>Chatham Cup Quarter-Final Results </strong>
+                <br>
+                Hamilton Wanderers versus Cashmere Technical (0-4)
+                <br>
+                North Shore United versus Otago University (2-2, North Shore won 6-5 on penalties)
+                <br>
+                Miramar Rangers versus Auckland City (2-0)
+                <br>
+                Western Suburbs versus Melville United (1-0)
+              </p>
+          </div>   
+        </div>
+      </div>
+
+      <div id="news_Modal_3" class="news_modal">
+        <!-- Modal content -->
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <h1>CONTINENTAL FUTSAL CHAMPIONSHIPS</h1>
+          <div>
+            <img src="../static/img/news_img/newsarticle3.jpeg" alt="photo">
+            <p>Newly appointed Futsal Development Officer Chris Sinclair and Central Football's Antony Riley have travelled to the Continental Futsal Championships in Thailand prior to the 2021 Lithuania Futsal World Cup in September. 
+
+              <br>Here's an update on what their days have been like so far:
+              
+              <br> <br>Day 8: Matchday 4. Today we moved into the knock out stages of the competition (semi-finals). Antony's first match was Iran vs Uzbekistan (Semi Final 1), in which he was the timekeeper. Following that, Both Antony and I had Semi-Final 2, which was Thailand vs Egypt. The match was fast, physical and played in a very tactical way, with both teams either sitting deep in defence or pressing very high up the court to try and turn the ball over in an attacking area. We used all the tools in our toolbox throughout the match to manage players challenging for space off the ball. We had two situations that required us to use the Video Support that supported the correct on-field decisions during the match, and a penalty was awarded against Egypt. We were able to implement new positioning techniques that helped us control the game. After the match, we returned to the hotel for another PCR Swab test and finished a great day off with a debrief and appointments for matchday 5.
+              
+              <br> <br>Day 9: Matchday 5 and the final day of the competition. Today we left the hotel and got to the stadium early to support our referee colleagues in the 3rd/4th playoff match and then prepare for our game later in the afternoon. The final was a spectacular match. Played at pace with lots of fast counter-attack transitions from defence to attack. Both teams used various rotations that needed close monitoring, and Thailand required the use of the power play GK. It was a really enjoyable match for both Antony and I to be involved in and topped off another fantastic tournament for us both. The next part of our journey is to complete our 14 days MIQ in the hotel, and once we are released, we will continue to train over here in Bangkok for 3 to 4 weeks. Finally, on the 1st of September, we will arrive in Vilnius (Lithuania) to kick-start our preparations for the FIFA Futsal World Cup 2021.
+              
+              </p>
+             
+      
+        </div>
+      </div>
+
+
+    </section>
+    <script src="../static/java_script/popup.js"></script>
+
+
+</body>
+
