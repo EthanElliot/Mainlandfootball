@@ -434,7 +434,7 @@ footer{
 
 .referee   {
     margin: 30px;
-    width: 22vw;
+    width: 30vw;
     height: 45vh;
     min-height: 300px;
     background-color: rgb(250, 250, 250);
@@ -466,10 +466,10 @@ footer{
     padding-top: 100px;
     margin: 10px 250px;
     height: 120vh;
-  
+
 }  
 
-.become_referee div{
+.referee_cards{
     display: grid;
     grid-template-columns: auto auto;
 }
