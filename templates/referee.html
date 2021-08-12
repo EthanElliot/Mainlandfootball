@@ -6,9 +6,11 @@
     <title>referee</title>
     <link rel="stylesheet" href="../static/stylesheet.css">
     <link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">
-  
+    
 </head>
 <body>
+
+    
     <header >
         <img src="../static/img/mainland_football_logo.png" alt="logo">
         <ul>
@@ -30,10 +32,9 @@
                 <div class="card-body">
                 <h3 class="card-title">FOOTBALL REFEREE</h5>
                 <div>
-                   <button>GET</button> 
+                   <button id ="referee_order0">GET</button> 
                    <button>BECOME</button>
                 </div>
-            
             </div>
                 
             </div>
@@ -43,13 +44,30 @@
                 <div class="card-body">
                 <h3 class="card-title">FUTSAL REFEREE</h5>
                     <div>
-                        <button>GET</button> 
+                        <button id="referee_order1">GET</button> 
                         <button>BECOME</button>
                      </div>
                 </div>
             </div>
         </div>
     </div>
+
+    <div id="referee_Modal_1" class="ref_modal">
+        <!-- Modal content -->
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <h1>GET REFEREE</h1>
+          <div>
+            
+          </div>
+        </div>
+      </div>
+
+
+
+
+
     </section>
 </body>
+<script src="../static/java_script/referee.js"></script>
 </html>
